@@ -8,7 +8,7 @@
     <link href="/2020/05/23/WorkLog/"/>
     <url>/2020/05/23/WorkLog/</url>
     
-    <content type="html"><![CDATA[<h2 id="存储过程"><a href="#存储过程" class="headerlink" title="存储过程"></a>存储过程</h2><ul><li>在begin与end中间实现过程</li><li>DECLARE定义变量</li><li>case when then 进行判断</li></ul><pre><code class="hljs sql">case when l.a == 'a' then l.awhen l.a == 'b' then l.b <span class="hljs-keyword">end</span> <span class="hljs-keyword">AS</span> <span class="hljs-keyword">REF</span> <span class="hljs-keyword">FROM</span> transtion l <span class="hljs-keyword">WHERE</span> l.c ==<span class="hljs-string">'c'</span>;</code></pre>]]></content>
+    <content type="html"><![CDATA[<h2 id="存储过程"><a href="#存储过程" class="headerlink" title="存储过程"></a>存储过程</h2><ul><li>DECLARE定义变量</li><li>在begin与end中间实现过程</li><li>case when then 进行判断</li></ul><pre><code class="hljs sql">case when l.a == 'a' then l.awhen l.a == 'b' then l.b <span class="hljs-keyword">end</span> <span class="hljs-keyword">AS</span> <span class="hljs-keyword">REF</span> <span class="hljs-keyword">FROM</span> transtion l <span class="hljs-keyword">WHERE</span> l.c ==<span class="hljs-string">'c'</span>;</code></pre>]]></content>
     
     
     
@@ -38,6 +38,12 @@
     <tags>
       
       <tag>工作日志</tag>
+      
+      <tag>IP</tag>
+      
+      <tag>network</tag>
+      
+      <tag>网络</tag>
       
     </tags>
     
